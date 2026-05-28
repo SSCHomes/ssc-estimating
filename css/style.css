@@ -1,24 +1,24 @@
 /* ============================================================
    SSC ESTIMATING — Design System
-   Brand: Spencer Stephens Construction spin-off
-   Primary: #7D1A28 (crimson)  Accent: #1B4B82 (steel blue)
+   Brand: SSC Homes (sschomesutah.com)
+   Primary: #C9A97E (gold/copper)  Accent: #0A2540 (dark navy)
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap');
 
 /* ---- CSS Custom Properties ---- */
 :root {
-  --primary:       #7D1A28;
-  --primary-dark:  #5C1220;
-  --primary-light: #f9f0f1;
-  --accent:        #1B4B82;
-  --accent-dark:   #122D52;
-  --accent-light:  #EAF1FB;
+  --primary:       #C9A97E;
+  --primary-dark:  #A8845A;
+  --primary-light: #FAF5EE;
+  --accent:        #0A2540;
+  --accent-dark:   #061525;
+  --accent-light:  #E8EFF7;
   --white:         #ffffff;
-  --cream:         #faf9f6;
-  --charcoal:      #1e1e1e;
+  --cream:         #FAF8F5;
+  --charcoal:      #1E1E1F;
   --mid:           #5a5a5a;
-  --border:        #e2e0db;
+  --border:        #E5E0D8;
   --shadow-sm:     0 2px 8px rgba(0,0,0,0.08);
   --shadow-md:     0 6px 24px rgba(0,0,0,0.12);
   --shadow-lg:     0 16px 48px rgba(0,0,0,0.16);
@@ -421,7 +421,7 @@ p { font-size: 1rem; color: var(--mid); }
 
 /* ---- CTA Section ---- */
 .cta-section {
-  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, #a02233 100%);
+  background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 50%, #0d3260 100%);
   padding: 5rem 0;
   text-align: center;
   position: relative;
@@ -444,7 +444,7 @@ footer {
   padding: 4rem 0 0;
 }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 3rem; margin-bottom: 3rem; }
-.footer-logo img { height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.8; }
+.footer-logo img { height: 40px; margin-bottom: 1rem; opacity: 0.85; }
 .footer-logo p { font-size: 0.875rem; line-height: 1.7; }
 .footer-col h5 {
   font-family: 'Oswald', sans-serif;
